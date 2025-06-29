@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trekins Company Limited</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Gistesy Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Gistesy&display=swap" rel="stylesheet">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="DJ Trekins 254 - Your go-to DJ, MC, video editor & event talent based in Kenya. Book today!">
+  <meta name="keywords" content="DJ Trekins 254, DJ Kenya, Music, Mixes, Events, Kakamega DJ, Trekins Company Limited">
+  <meta name="author" content="DJ Trekins">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #333;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #f39c12;
+      font-family: 'Gistesy', cursive;
+    }
+    nav {
+      background-color: #444;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav button {
+      background: none;
+      border: none;
+      color: white;
+      margin: 0 10px;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+    nav button:hover {
+      color: #f39c12;
+    }
+    .tab-content {
+      display: none;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    .social-media a {
+      color: #f39c12;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 1.8rem;
+      transition: 0.3s;
+    }
+    .social-media a:hover {
+      color: #fff;
+    }
+    .donate-icons {
+      margin-top: 20px;
+      font-size: 2rem;
+    }
+    .donate-icons i, .donate-icons img {
+      margin: 0 15px;
+      vertical-align: middle;
+    }
+    .video-container {
+      width: 300px;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Trekins Company Limited</h1>
+    <p>Your ultimate destination for amazing mixes, talent, and creativity!</p>
+  </header>
+
+  <nav>
+    <button onclick="showTab('about')">About</button>
+    <button onclick="showTab('skills')">Skills</button>
+    <button onclick="showTab('events')">Events</button>
+    <button onclick="showTab('music')">Music</button>
+    <button onclick="showTab('merchandise')">Merchandise</button>
+    <button onclick="showTab('contact')">Contact</button>
+    <button onclick="showTab('comments')">Comments</button>
+    <button onclick="showTab('booking')">Booking</button>
+  </nav>
+
+  <div id="about" class="tab-content active">
+    <h2>About DJ TREKINS 254</h2>
+    <p>DJ TREKINS 254 is a world-class DJ known for high-energy performances and passion for music. Based in <strong>Kakamega</strong>, Kenya, he is always willing to travel anywhere for gigs.</p>
+  </div>
+
+  <div id="skills" class="tab-content">
+    <h2>Skills</h2>
+    <p>I am a skilled DJ who can perform live sets, edit videos, MC events, and organize shows. I'm a qualified Certificate Holder in Health Records and Information Technology (KMTC Kapenguria Campus) and a natural leader.</p>
+  </div>
+
+  <div id="events" class="tab-content">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for the latest events where DJ TREKINS 254 will be performing!</p>
+  </div>
+
+  <div id="music" class="tab-content">
+    <h2>Listen to the Mix</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding-top: 20px;">
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/LVIakZLBkMc" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/qWnYXfI61wM" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/x1lr98JzYbU" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/KnzG553AZCk" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/3uo8vBRieT8" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/FYEM9SsYP8M" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/Pyd6ySyr12w" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/d5l4oioscZs" allowfullscreen></iframe>
+      <iframe width="300" height="170" src="https://www.youtube.com/embed/vulHxLBB4Hk" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div id="merchandise" class="tab-content">
+    <h2>Merchandise Coming Soon</h2>
+    <p>Exciting DJ TREKINS 254 gear is on the way. Stay tuned!</p>
+  </div>
+
+  <div id="contact" class="tab-content">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:djtrekins254@gmail.com" style="color:#f39c12;">djtrekins254@gmail.com</a></p>
+    <p>Safaricom: <a href="tel:+254704690198" style="color:#f39c12;">0704 690 198</a></p>
+    <p>Airtel: <a href="tel:+254786188640" style="color:#f39c12;">0786 188 640</a></p>
+    <div class="donate-icons">
+      <p>Support My Work:</p>
+      <a href="tel:+254704690198" title="M-PESA Gift"><img src="https://upload.wikimedia.org/wikipedia/commons/1/17/M-PESA_LOGO.png" alt="M-PESA" width="50"></a>
+      <a href="https://paypal.me/trevourtrekins19" target="_blank" title="PayPal Gift"><i class="fab fa-paypal"></i></a>
+    </div>
+  </div>
+
+  <div id="comments" class="tab-content">
+    <h2>Leave a Comment</h2>
+    <form action="https://formspree.io/f/xnqekjep" method="POST" style="max-width: 500px; margin: 0 auto;">
+      <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+      <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+      <textarea name="message" placeholder="Your Comment" required style="width: 100%; padding: 10px; margin: 10px 0;"></textarea><br>
+      <button type="submit" style="padding: 10px 20px; background-color: #f39c12; border: none; color: white; cursor: pointer;">Submit</button>
+    </form>
+  </div>
+
+  <div id="booking" class="tab-content">
+    <h2>Book DJ Trekins</h2>
+    <form action="https://formspree.io/f/xnqekjep" method="POST" style="max-width: 500px; margin: 0 auto;">
+      <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+      <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+      <input type="text" name="event" placeholder="Event Type / Occasion" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+      <textarea name="message" placeholder="Details / Date / Location" required style="width: 100%; padding: 10px; margin: 10px 0;"></textarea><br>
+      <button type="submit" style="padding: 10px 20px; background-color: #f39c12; border: none; color: white; cursor: pointer;">Submit Booking</button>
+    </form>
+
+    <div style="margin-top: 30px;">
+      <p>Or book directly via WhatsApp:</p>
+      <a href="https://wa.me/254704690198" target="_blank" style="display: inline-block; background-color: #25D366; color: white; padding: 12px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+        <i class="fab fa-whatsapp" style="margin-right: 10px;"></i> Message on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div class="social-media" style="text-align:center; padding:20px;">
+    <h2>Follow Me</h2>
+    <a href="https://www.facebook.com/djtrekins254" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/djtrekins_254" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@djtrekins254" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.youtube.com/@djtrekins254" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="https://t.me/djtrekins" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+    <a href="https://x.com/djtrekins_254" target="_blank" title="X"><i class="fab fa-x-twitter"></i></a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Trekins Company Limited. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    function showTab(tabId) {
+      const tabs = document.querySelectorAll('.tab-content');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
